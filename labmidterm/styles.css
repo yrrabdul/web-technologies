@@ -131,3 +131,9 @@ body{
     margin-bottom: 0;
   }
   
+  .footer ul li a{
+    color: gray;
+  }
+  .footer ul li a:hover{
+    color: blue;
+  }
