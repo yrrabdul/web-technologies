@@ -1,0 +1,133 @@
+body{
+    font-family: Open Sans,Arial,sans-serif;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-nav .nav-link i {
+    color: #ff2b85;
+}
+ .main-p{
+    font-size: 40px;
+    font-family: Open Sans,Arial,sans-serif;
+    margin-left: 10%;
+    margin-top: 10%;
+ }
+ .main-section {
+    background-image: url("images/image1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  
+.row{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.input-group input {
+    height: 50px;
+    border-radius: 10px;
+  }
+
+.btn{
+    background-color: #ff2b85;
+    margin-left: 10px;
+    height: 50px;
+}
+
+.btn:hover{
+    background-color: #db0e64;
+}
+
+  
+  .large-text {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .form-title {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  .img-container {
+    position: relative; 
+    height: 70vh;
+    overflow: hidden; 
+  }
+  
+  .img-container img {
+    width: 100%;
+  }
+  
+  .form-overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    margin-left: 0%;
+  }
+  
+  .form-overlay h3 {
+    margin-top: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  
+  .form-overlay button[type="submit"] {
+    flex: 0 0 auto;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff2b85;
+    color: #fff;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .form-overlay button[type="submit"]:hover {
+    background-color: #e0136b;
+  }
+  
+  .get-started {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .popup-container {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .card.bg-image {
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    margin: 10px;
+  }
+  
+  .card.bg-image > .card-body {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  .card.bg-image > .card-body > .card-title {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  
