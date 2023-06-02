@@ -1,0 +1,15 @@
+  
+  li a{
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  
+  .footer ul li a{
+    color: gray;
+  }
+  .footer ul li a:hover{
+    color: white;
+  }
+  
+  

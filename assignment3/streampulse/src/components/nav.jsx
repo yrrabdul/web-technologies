@@ -1,12 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '../css/nav.css';
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark mt-0" id="navbar">
       <div className="container-fluid">
-        <a className="navbar-brand" style={{ color: 'rgb(196, 48, 92)' }}>
+        <Link to="/" className="navbar-brand" style={{ color: 'rgb(196, 48, 92)' }}>
           <strong>Stream Pulse</strong>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,35 +23,30 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link to="/" className="nav-link">
                 Movies
-              </a>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link" aria-current="page" href="#">
-                TV-Shows
-              </a>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link" aria-current="page" href="#">
+              </Link>
+            </li> 
+            <li className="nav-item">
+              <Link to="/watchlist" className="nav-link">
                 Watchlist
-              </a>
+              </Link>
             </li>
           </ul>
           <form className="d-flex">
             <input
-              className="form-control me-2"
+              className="form-control me-2 nav-search"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
           </form>
-          <a href="signup.html" className="button">
+          <Link to="/signup" className="nav-button">
             Create an Account
-          </a>
-          <a href="login.html" className="button">
+          </Link>
+          <Link to="/login" className="nav-button">
             Login
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
