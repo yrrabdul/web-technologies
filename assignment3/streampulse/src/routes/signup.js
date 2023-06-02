@@ -3,10 +3,6 @@ const UserData = require('../models/userData');
 
 const router = express.Router();
 
-router.get('/signup', (req, res) => {
-  res.send('Signup page');
-});
-
 router.post('/signup', (req, res) => {
   const { email, password } = req.body;
   const newUser = new UserData({ email, password });
