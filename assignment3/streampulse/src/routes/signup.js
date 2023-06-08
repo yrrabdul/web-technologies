@@ -9,7 +9,8 @@ router.post('/signup', (req, res) => {
 
   newUser.save()
     .then(() => {
-      res.send('User registered successfully');
+      res.json({ success: true, message: 'User registered successfully' });
+
     })
     .catch((error) => {
       console.error('Error registering user:', error);

@@ -38,15 +38,9 @@ const SignupForm = () => {
               <p className="text-muted">Please enter your details</p>
               <input
                 type="text"
-                name="Fname"
+                name="Fullname"
                 id="Fname-input"
-                placeholder="First Name"
-              />
-              <input
-                type="text"
-                id="Lname-input"
-                name="Lname"
-                placeholder="Last Name"
+                placeholder="Full Name"
               />
               <input
                 type="text"
@@ -67,7 +61,7 @@ const SignupForm = () => {
               <a className="forgot text-muted" href="login.html">
                 Already have an account? Login
               </a>
-              <input type="submit" value="Sign Up" />
+              <input type="button" value="Signup"/>
             </form>
           </div>
         </div>
