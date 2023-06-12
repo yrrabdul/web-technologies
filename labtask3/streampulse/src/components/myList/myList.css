@@ -1,0 +1,116 @@
+.mylist-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.mylist-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.mylist-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.mylist-form label {
+  margin-bottom: 10px;
+}
+
+.mylist-form input {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.mylist-form button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.mylist-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mylist-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mylist-item-text {
+  margin-right: 10px;
+}
+
+.mylist-item-buttons {
+  display: flex;
+}
+
+.mylist-item button {
+  margin-right: 5px;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.mylist-item button:hover {
+  background-color: #999;
+}
+
+/* New styling for a cool and gentle look */
+.mylist-container {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mylist-header {
+  color: #333;
+}
+
+.mylist-form input,
+.mylist-form button {
+  background-color: #e1e1e1;
+  color: #333;
+}
+
+.mylist-form input:focus,
+.mylist-form button:focus {
+  outline: none;
+  background-color: #d4d4d4;
+}
+
+.mylist-items {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.mylist-item {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.mylist-item button {
+  background-color: #888;
+}
+
+.mylist-item button:hover {
+  background-color: #666;
+}

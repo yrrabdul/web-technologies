@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* Set a higher z-index to ensure the navbar is on top */
+  }
+  .nav-item:hover{
+     border-color: rgb(196, 48, 92);
+  }
+  .nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: rgb(196, 48, 92); 
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .nav-button:hover {
+    background-color: rgb(196, 48, 92);
+    color: black;
+  }
+  
